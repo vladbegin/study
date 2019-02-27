@@ -1,0 +1,11 @@
+f=0
+b=1
+chet=2
+summa=0
+
+while b<4000000:
+    f,b=b,b+f
+    if b%2==0 and 1<b>2:
+        summa=chet+b
+        chet=b
+print(summa)
